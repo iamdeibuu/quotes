@@ -1,46 +1,30 @@
-.tweet {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #f9f9f9;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa; /* Twitter-like light blue background color */
 }
 
-.tweet-header {
+.container {
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 5px;
+    min-height: 100vh;
 }
 
-.profile-pic {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
+.twitter-box {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff; /* Twitter-like white background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.user-info {
-    font-weight: bold;
+h1 {
+    color: #1da1f2; /* Twitter-like blue color */
 }
 
-.tweet-content {
-    margin-bottom: 10px;
-}
-
-.tweet-footer {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.actions button {
-    border: none;
-    background: none;
-    cursor: pointer;
-    color: #007bff;
-    margin-right: 10px;
-}
-
-.actions button:hover {
-    text-decoration: underline;
-    color: #0056b3;
+p {
+    color: #333333; /* Twitter-like dark gray color */
 }
